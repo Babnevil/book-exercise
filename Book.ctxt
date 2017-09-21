@@ -18,4 +18,6 @@ comment7.params=
 comment7.target=void\ printDetails()
 comment8.params=ref
 comment8.target=void\ setRefNumber(java.lang.String)
-numComments=9
+comment9.params=
+comment9.target=java.lang.String\ getRefNumber()
+numComments=10

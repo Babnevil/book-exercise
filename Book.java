@@ -51,12 +51,15 @@ class Book
     {
         return pages;
     }
-    //method for #2.87
+    //method for #2.87, appended for #2.89
     public void printDetails()
     {
         System.out.println("Author:.......... " + author 
         + "\nTitle:........... " + title + "\nPages:........... " + pages);
 
+        if (refNumber.length() != 0)
+            System.out.println("Reference Number: " + refNumber);
+        else System.out.println("Reference Number: ZZZ");
     }
     //method for #2.88
     public void setRefNumber(String ref)
