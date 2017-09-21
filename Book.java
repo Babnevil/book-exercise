@@ -49,4 +49,11 @@ class Book
     {
         return pages;
     }
+    //method for #2.87
+    public void printDetails()
+    {
+        System.out.println("Author:.......... " + author 
+        + "\nTitle:........... " + title + "\nPages:........... " + pages);
+
+    }
 }
