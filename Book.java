@@ -61,10 +61,13 @@ class Book
             System.out.println("Reference Number: " + refNumber);
         else System.out.println("Reference Number: ZZZ");
     }
-    //method for #2.88
+    //method for #2.88, appended for #2.90
     public void setRefNumber(String ref)
     {
-        refNumber = ref;
+        if (ref.length() >=3)
+            refNumber = ref;
+        else System.out.println("Refernece number assignment failed" + 
+        "\nNumber must be at least three digits");
     }
     //disposable accessor to check value of refNumber
     public String getRefNumber()
